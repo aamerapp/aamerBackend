@@ -8,7 +8,7 @@ import compression from 'compression';
 import mongoose from 'mongoose';
 
 // Import routes
-import authRoutes from './routes/authRoutes.js';
+import authRoutes from './routes/authroutes.js';
 import requestRoutes from './routes/requestRoutes.js';
 import notificationRoutes from './routes/notificationRoutes.js';
 import chatRoutes from './routes/chatRoutes.js';
