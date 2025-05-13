@@ -1,10 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { Server } from 'socket.io';
 import http from 'http';
-import Redis from 'ioredis';
-import compression from 'compression';
 import mongoose from 'mongoose';
 
 // Import routes
